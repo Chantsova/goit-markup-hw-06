@@ -109,7 +109,7 @@
     height: 100%;
     padding: 63px 24px;
     background-color: var(--background-overlay);
-    opacity: 0;
+    /* opacity: 0; */
 
     transform: translateY(
         101%

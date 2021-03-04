@@ -5,11 +5,14 @@
     --header-border-grey: rgba(236, 236, 236, 1);
     --accent-color: rgba(33, 150, 243, 1);
     --border-grey: rgba(238, 238, 238, 1);
+    --text-grey05: rgba(117, 117, 117, 0.5);
     --text-grey: rgba(117, 117, 117, 1);
     --text-dark-grey: rgba(33, 33, 33, 1);
+    --element-dark-grey03: rgba(33, 33, 33, 0.2);
     --background-grey: rgba(245, 244, 250, 1);
     --icon-grey: rgba(175, 177, 184, 1);
     --text-white06: rgba(255, 255, 255, 0.6);
+    --text-white03: rgba(255, 255, 255, 0.3);
     --circle-icon-color: rgba(255, 255, 255, 0.1);
     --backdrop-color: rgba(0, 0, 0, 0.2);
     --background-footer: rgba(47, 48, 58, 1);
@@ -52,6 +55,10 @@ ul,
 li {
     padding: 0;
     margin: 0;
+}
+
+input {
+    outline: none;
 }
 
 /* container for the all sections*/
@@ -227,7 +234,7 @@ address {
 
 .footer {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -296,4 +303,64 @@ address {
 .social-link:hover,
 .social-link:focus {
     background-color: var(--accent-color);
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    margin-left: 93px;
+}
+
+.input-subscribe {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    color: var(--text-white);
+
+    background-color: transparent;
+    border: 1px solid var(--text-white03);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.label-subscribe {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--element-white);
+    margin-bottom: 20px;
+}
+
+.subscribe-field-btn {
+    display: flex;
+}
+
+.btn-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--text-white);
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 0;
+    margin-left: 10px;
+    /* cursor: pointer; */
+}
+
+.icon-telegram {
+    fill: currentColor;
+    margin-left: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
