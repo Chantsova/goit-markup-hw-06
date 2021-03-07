@@ -324,6 +324,12 @@ address {
     line-height: 1.25;
 }
 
+.input-subscribe::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--text-white06);
+}
+
 .label-subscribe {
     font-weight: bold;
     font-size: 14px;
