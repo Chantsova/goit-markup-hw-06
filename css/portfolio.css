@@ -119,7 +119,7 @@
 
 .overlay-text {
     font-size: 18px;
-    line-height: 28px;
+    line-height: 1.555;
     letter-spacing: 0.03em;
     color: var(--element-white);
 }

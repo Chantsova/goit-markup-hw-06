@@ -533,11 +533,11 @@
                     <label class="callback-label" for="name">Имя</label>
                     <div class="callback-input-frame">
                         <span class="callback-icon">
-                            <svg class="icon-form" width="18" height="18">
+                            <svg width="18" height="18">
                                 <use href="./images/icons.svg#icon-person-modal"></use>
                             </svg>
                         </span>
-                        <input class="input-callback" type="name" name="name" id="name">
+                        <input class="callback-input" type="text" name="name" id="name">
                     </div>
                 </div>    
 
@@ -545,11 +545,11 @@
                     <label class="callback-label" for="tel">Телефон</label>
                     <div class="callback-input-frame">
                         <span class="callback-icon">
-                            <svg class="icon-form" width="18" height="18">
+                            <svg width="18" height="18">
                                 <use href="./images/icons.svg#icon-phone-modal"></use>
                             </svg>
                         </span>
-                        <input class="input-callback focus-input" type="tel" name="tel" id="tel">
+                        <input class="callback-input focus-input" type="tel" name="tel" id="tel">
                     </div>
                 </div>    
 
@@ -557,11 +557,11 @@
                     <label class="callback-label" for="email">Почта</label>
                     <div class="callback-input-frame">
                         <span class="callback-icon">
-                                <svg class="icon-form" width="18" height="18">
+                                <svg width="18" height="18">
                                     <use  href="./images/icons.svg#icon-mail-modal"></use>
                                 </svg>
                         </span>
-                        <input class="input-callback" type="email" name="email-callback" id="email"> 
+                        <input class="callback-input" type="email" name="email-callback" id="email"> 
                         
                     </div>
                 </div>
@@ -570,16 +570,16 @@
                     <label class="callback-label" for="comment">Комментарий</label> 
                     <textarea class="textarea" name="comment" rows="5" placeholder="Введите текст" id="comment"></textarea>
                 </div>
+                
 
                 <div class="callback-checkbox">
-                    <label class="abc">
-                        <input class="check-input" type="checkbox" name="argeement" value="argeement" checked />
-                        Соглашаюсь с рассылкой и принимаю <a class="agreement-link" href="#">Условия договора</a>
-                        <span class="checkbox">
-                            <svg class="icon-checkbox" width="16" height="15">
-                                <use href="./images/icons.svg#icon-check"></use>
-                            </svg>
-                        </span>
+                    <label class="text-agreement" for="argeement">
+                        <input class="check-input" type="checkbox" name="argeement" value="argeement" id="argeement" required/>
+                            <span class="checkbox">
+                                <svg width="16" height="15">
+                                    <use href="./images/icons.svg#icon-check"></use>
+                                </svg>
+                            </span>Соглашаюсь с рассылкой и принимаю <a class="agreement-link" href="#">Условия договора</a>
                     </label>
                 </div>
 
