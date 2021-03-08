@@ -103,13 +103,14 @@
 }
 
 .close-modal-icon {
-    fill: var(--element-black);
+    fill: currentColor;
 }
 
 .close-button {
     position: absolute;
     top: 8px;
     right: 8px;
+    fill: var(--element-black);
 
     display: flex;
     justify-content: center;
@@ -121,6 +122,11 @@
     border-radius: 50%;
     background-color: var(--element-white);
     cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: var(--accent-color);
 }
 
 .callback-text {
