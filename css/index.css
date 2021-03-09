@@ -224,8 +224,12 @@
     appearance: none;
 }
 
+.check-input:focus + .checkbox {
+    outline: 1px solid var(--accent-color);
+}
+
 .check-input + .checkbox {
-    fill: transparent;
+    fill: none;
     border: 2px solid var(--text-dark-grey);
     border-radius: 2px;
 }
