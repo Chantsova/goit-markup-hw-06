@@ -173,6 +173,7 @@
     border-radius: 4px;
     cursor: pointer;
     padding-left: 42px;
+    outline: none;
 }
 
 .callback-input:focus {
